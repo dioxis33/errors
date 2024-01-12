@@ -1,0 +1,87 @@
+[    56.868] 
+X.Org X Server 1.21.1.8
+X Protocol Version 11, Revision 0
+[    56.868] Current Operating System: Linux diolfs 6.4.12 #1 SMP PREEMPT_DYNAMIC Sun Jan  7 17:16:31 UTC 2024 x86_64
+[    56.868] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-6.4.12-lfs-12.0-systemd root=PARTUUID=b2c77c65-2aa4-44c2-af50-96922ede5d69 ro
+[    56.868]  
+[    56.870] Current version of pixman: 0.42.2
+[    56.870] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    56.870] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    56.870] (==) Log file: "/var/log/Xorg.0.log", Time: Fri Jan 12 21:51:16 2024
+[    56.874] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    56.875] (==) No Layout section.  Using the first Screen section.
+[    56.875] (==) No screen section available. Using defaults.
+[    56.875] (**) |-->Screen "Default Screen Section" (0)
+[    56.875] (**) |   |-->Monitor "<default monitor>"
+[    56.875] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[    56.875] (==) Automatically adding devices
+[    56.875] (==) Automatically enabling devices
+[    56.875] (==) Automatically adding GPU devices
+[    56.875] (==) Automatically binding GPU devices
+[    56.875] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    56.880] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/TTF,
+	/usr/share/fonts/X11/OTF,
+	/usr/share/fonts/X11/Type1,
+	/usr/share/fonts/X11/100dpi,
+	/usr/share/fonts/X11/75dpi
+[    56.880] (==) ModulePath set to "/usr/lib/xorg/modules"
+[    56.880] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[    56.880] (II) Module ABI versions:
+[    56.880] 	X.Org ANSI C Emulation: 0.4
+[    56.880] 	X.Org Video Driver: 25.2
+[    56.880] 	X.Org XInput driver : 24.4
+[    56.880] 	X.Org Server Extension : 10.0
+[    56.881] (++) using VT number 1
+
+[    56.882] (EE) systemd-logind: failed to get session: PID 296 does not belong to any known session
+[    56.882] (--) PCI:*(0@0:2:0) 15ad:0405:15ad:0405 rev 0, Mem @ 0xe0000000/134217728, 0xf0000000/2097152, I/O @ 0x0000d010/16, BIOS @ 0x????????/131072
+[    56.882] (WW) Open ACPI failed (/var/run/acpid.socket) (No such file or directory)
+[    56.882] (II) LoadModule: "glx"
+[    56.882] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    56.891] (II) Module glx: vendor="X.Org Foundation"
+[    56.891] 	compiled for 1.21.1.8, module version = 1.0.0
+[    56.891] 	ABI class: X.Org Server Extension, version 10.0
+[    56.891] (==) Matched vmware as autoconfigured driver 0
+[    56.891] (==) Matched modesetting as autoconfigured driver 1
+[    56.891] (==) Matched fbdev as autoconfigured driver 2
+[    56.891] (==) Matched vesa as autoconfigured driver 3
+[    56.891] (==) Assigned the driver to the xf86ConfigLayout
+[    56.891] (II) LoadModule: "vmware"
+[    56.891] (WW) Warning, couldn't open module vmware
+[    56.891] (EE) Failed to load module "vmware" (module does not exist, 0)
+[    56.891] (II) LoadModule: "modesetting"
+[    56.891] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    56.891] (II) Module modesetting: vendor="X.Org Foundation"
+[    56.891] 	compiled for 1.21.1.8, module version = 1.21.1
+[    56.891] 	Module class: X.Org Video Driver
+[    56.891] 	ABI class: X.Org Video Driver, version 25.2
+[    56.891] (II) LoadModule: "fbdev"
+[    56.891] (WW) Warning, couldn't open module fbdev
+[    56.891] (EE) Failed to load module "fbdev" (module does not exist, 0)
+[    56.891] (II) LoadModule: "vesa"
+[    56.891] (WW) Warning, couldn't open module vesa
+[    56.891] (EE) Failed to load module "vesa" (module does not exist, 0)
+[    56.891] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[    56.891] (EE) open /dev/dri/card0: No such file or directory
+[    56.891] (WW) Falling back to old probe method for modesetting
+[    56.891] (EE) open /dev/dri/card0: No such file or directory
+[    56.891] (EE) Screen 0 deleted because of no matching config section.
+[    56.891] (II) UnloadModule: "modesetting"
+[    56.891] (EE) Device(s) detected, but none match those in the config file.
+[    56.891] (EE) 
+Fatal server error:
+[    56.891] (EE) no screens found(EE) 
+[    56.891] (EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+[    56.891] (EE) Please also check the log file at "/var/log/Xorg.0.log" for additional information.
+[    56.891] (EE) 
+[    56.891] (EE) Server terminated with error (1). Closing log file.
